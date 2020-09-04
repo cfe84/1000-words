@@ -1,0 +1,21 @@
+<html>
+<head>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script src="scripts/porterstemmer.js"></script>
+	<script src="scripts/words2.js"></script>
+	<script src="scripts/1000words.js"></script>
+	<link rel="stylesheet" href="css.css"></link>
+</head>
+<body>
+	<textarea id="words--input"></textarea>
+	<br/>
+	<button id="words--vet">Vet 1000 words</button>
+	<div id="words--stats">
+		<p>Words: <span id="words--stats--words"></span></p>
+		<p>Ratio in 1000: <span id="words--stats--ratio1000"></span>%</p>
+		<p>Ratio in 5000: <span id="words--stats--ratio5000"></span>%</p>
+		<p>Average ranking in 5000: <span id="words--stats--average"></span></p>
+	</div>
+	<div id="words--result">Results will appear here</div>
+</body>
+</html>
